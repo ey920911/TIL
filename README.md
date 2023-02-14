@@ -10,6 +10,9 @@ Today I Learned
     - const { data, error, isValidating, mutate } = useSWR(key, fetcher, options)  형태로 사용
         - mutation 사용시 optimistic UI 사용이 가능하다. (e.g. 좋아요 버튼 클릭시 좋아요에 불이 들어오고 난 후 서버로 요청이 갔다옴)
     - TODO) Slack clone coding 계속하기
+### 1/30
+- animation, transition, keyframe
+    - TODO) animation을 이용한 미니게임 
 ### 2/9
 - docType
     - 브라우저에게 문서형식을 알려준다.  (HTML이 어떤 버전으로 작성 되었는지 미리 선언한다.)
