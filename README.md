@@ -46,4 +46,7 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
     - 네이티브 앱은 해당 플랫폼에 맞는 구현 기술을 익혀야하지만 PWA 를 사용하면 통합해서 개발 가능하다.
     - PWA는 별도의 빌드/배포 과정이 필요없다. 모든 웹 페이지를 대상으로 가능하다.
 
- 
+### 2/27
+- .gitattributes 파일
+    - 디렉토리와 파일 단위로 다른 설정을 적용 할 수 있는데 이렇게 경로별로 설정하는 것을 git attribute 라고 부른다.
+    - 참고자료: https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-Attributes
