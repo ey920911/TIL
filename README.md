@@ -57,4 +57,5 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
     - sudo npm 으로 start 해주면 나중에 꺼줘도 해당 port 가 계속 열려있는 문제가 발생함
     - 해결) yarn 으로 실행 시 위의 사항 해결됨
     - 참고자료: https://github.com/npm/cli/issues/3110
-- mac 
+- mac host 이름 변경해주기
+    - /private/etc/hosts 파일 수정하기 
