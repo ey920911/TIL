@@ -50,3 +50,11 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 - .gitattributes 파일
     - 디렉토리와 파일 단위로 다른 설정을 적용 할 수 있는데 이렇게 경로별로 설정하는 것을 git attribute 라고 부른다.
     - 참고자료: https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-Attributes
+    
+### 2/28
+(window로만 작업하던 환경에서 mac환경으로 작업하려니 몇가지 문제가 발생했음)
+- mac os로 443 port 사용시 sudo 로 실행해줘야함
+    - sudo npm 으로 start 해주면 나중에 꺼줘도 해당 port 가 계속 열려있는 문제가 발생함
+    - 해결) yarn 으로 실행 시 위의 사항 해결됨
+    - 참고자료: https://github.com/npm/cli/issues/3110
+- mac 
