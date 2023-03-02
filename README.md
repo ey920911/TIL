@@ -75,4 +75,5 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
     - 보일러플레이트 간단함
     - immer 개념 사용
     - Context Api의 불필요한 렌더링 방지
+    - Redux Devtools 를 사용해 디버깅이 쉽다.
     
