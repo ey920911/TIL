@@ -74,3 +74,5 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
     - Redux 와 같은 Flux 구조
     - 보일러플레이트 간단함
     - immer 개념 사용
+    - Context Api의 불필요한 렌더링 방지
+    
