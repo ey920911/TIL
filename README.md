@@ -59,3 +59,18 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
     - 참고자료: github.com/npm/cli/issues/3110   아래쪽
 - mac host 이름 변경해주기
     - /private/etc/hosts 파일 수정하기 
+    
+### 3/2
+- Next.js v13 개선점
+    - hydration 부분 개선됨
+    - Turbopack (webpack을 대체해 사용, 700배 빠른 Rust 기반임) 사용으로 빌드 속도가 4배 빨라짐
+    - app/  디렉토리 구조로 변경 (기존 pages/)
+        - layouts.js: 레이아웃 처리
+        - loading.js: 로딩 상태 
+        - 서버 컴포넌트
+    - next/image: layout switching 자동으로 해준다.
+    - next/font: layout switching 자동, 구글 폰트가 내장되어 있다.
+- Zunstand 상태관리 라이브러리
+    - Redux 와 같은 Flux 구조
+    - 보일러플레이트 간단함
+    - immer 개념 사용
