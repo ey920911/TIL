@@ -70,6 +70,7 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
         - 서버 컴포넌트
     - next/image: layout switching 자동으로 해준다.
     - next/font: layout switching 자동, 구글 폰트가 내장되어 있다.
+    - React 18에서 업데이트된 기능에 맞게 추가함: Streaming, Transitions, Suspense.
 - Zunstand 상태관리 라이브러리
     - Redux 와 같은 Flux 구조
     - 보일러플레이트 간단함
