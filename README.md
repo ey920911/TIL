@@ -76,5 +76,13 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
     - 보일러플레이트 간단함
     - immer 개념 사용
     - Context Api의 불필요한 렌더링 방지
-    - Redux Devtools 를 사용해 디버깅이 쉽다.
+    - Redux Devtools 를 사용해 디버깅이 쉽다. 
+
+### 3/3
+- Next.js prerendering 기능  
+    - v12
+        - getServerSideProps: SSR 기능 (데이터가 계속 바껴야할 떄 사용함)
+        - getStaticProps/getStaticPaths: SSG 사용시 사용함
+    - v13
+        - 추가적으로 ISR (Incremental Static Regeneration) 사용가능
     
