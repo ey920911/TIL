@@ -85,4 +85,8 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
         - getStaticProps/getStaticPaths: SSG 사용시 사용함
     - v13
         - 추가적으로 ISR (Incremental Static Regeneration) 사용가능
+        
+### 3/7
+- Next 13버전이 beta 버전 (app/ 디렉도리 활용), stable 버전(font, image, script component 업데이트 내역)으로 나눠서 가이드함
+     
     
