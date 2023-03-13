@@ -89,5 +89,8 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 ### 3/7
 - Next 13버전이 beta 버전 (app/ 디렉도리 활용), stable 버전(font, image, script component 업데이트 내역)으로 나눠서 가이드함
 - css 의 direction을 rtl 으로 설정해주면 오른쪽-> 왼쪽 순서로 페이지가 구성된다 (기본: ltr)
-     
+   
+         
+### 3/13
+- n*n box layout을 구성하기 위해 flex-wrap, flex-basis, flex-shrink, flex-grow 사용 후 각 item 에 max-width 값을 주자
     
