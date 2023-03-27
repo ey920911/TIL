@@ -94,3 +94,8 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 ### 3/13
 - n*n box layout을 구성하기 위해 flex-wrap, flex-basis, flex-shrink, flex-grow 사용 후 각 item 에 max-width 값을 주자
     
+### 3/27
+- next.js 에서 error 다루기
+- SSR: pages/500.js 와 같이  ${statusCode}.js 파일을 만든다
+- CSR: error boundaries 사용
+- 
