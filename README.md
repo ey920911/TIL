@@ -98,4 +98,18 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 - next.js 에서 error 다루기
 - SSR: pages/500.js 와 같이  ${statusCode}.js 파일을 만든다
 - CSR: error boundaries 사용
-- 
+
+### 3/28
+ - next.js SSR 에서 getServerSideProps 의 캐싱 가능
+ ```
+ export async function getServerSideProps({ req, res }) {
+  res.setHeader(
+    'Cache-Control',
+    'public, s-maxage=10, stale-while-revalidate=59'
+  )
+
+  return {
+    props: {},
+  }
+}
+ ```
