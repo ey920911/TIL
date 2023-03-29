@@ -113,3 +113,7 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
   }
 }
  ```
+ 
+ ### 3/28
+ - next.js dev, product 모드일 때 다른점 더 확인
+ - https://nextjs.org/learn/foundations/how-nextjs-works/rendering
