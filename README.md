@@ -93,6 +93,19 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
          
 ### 3/13
 - n*n box layout을 구성하기 위해 flex-wrap, flex-basis, flex-shrink, flex-grow 사용 후 각 item 에 max-width 값을 주자
+
+### 3/17
+- Nest.js
+    - express, typeorm 을 wrapping함
+    - spring 구조로 되어있다.
+    - module, controller, service 구조  (controller 가 제공하는 것 많음)
+    - module: dependency 관리
+    - controller: 사용자 접근에 대한 endpoint 관리
+    - service: business logic 담당
+    - app.module: db type 넣어줌, 
+- TypeORM 이란?
+    - TypeORM(Real DB, 실제 db를 사용한다) vs PrismaDB(Cloud 주소로 data를 web에 넣고 뺀다)
+    - TypeORM 호환에 대한 장점이있다. (DB가 어떤 것으로 선언되었는지에 상관 없이 js로 db에 접근 가능하다)
     
 ### 3/27
 - next.js 에서 error 다루기
