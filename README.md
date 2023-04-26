@@ -133,3 +133,6 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
  
  ### 4/24
  - TODO) webpack, rollup 비교 
+ 
+ ### 4/26
+ - AI 검색엔진 : https://yozm.wishket.com/magazine/detail/1944/
