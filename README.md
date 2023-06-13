@@ -127,6 +127,7 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 }
  ```
  
+ 
  ### 3/28
  - next.js dev, product 모드일 때 다른점 더 확인
  - https://nextjs.org/learn/foundations/how-nextjs-works/rendering
@@ -136,3 +137,7 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
  
  ### 4/26
  - AI 검색엔진 : https://yozm.wishket.com/magazine/detail/1944/
+
+ ### 6/13
+ - Next Script component 사용시 strategy의 lazyOnload 옵션을 사용하면 script 로 가져오는 UI 가 깜빡거리는 현상 fix 가능 
+    (defaut: afterInteractive, optiosn: beforeInteractive, lazyOnload, worker)
