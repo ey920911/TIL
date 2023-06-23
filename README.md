@@ -141,3 +141,6 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
  ### 6/13
  - Next Script component 사용시 strategy의 lazyOnload 옵션을 사용하면 script 로 가져오는 UI 가 깜빡거리는 현상 fix 가능 
     (defaut: afterInteractive, optiosn: beforeInteractive, lazyOnload, worker)
+
+ ### 6/23
+ - Next.js 에서 i18n 사용시 next-i18next 을 사용해야하고 SSR 에서 serverSideTranslations 을 사용해 context.locale 정보를 넘겨줘야함
