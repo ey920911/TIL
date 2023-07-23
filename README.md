@@ -144,3 +144,22 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 
  ### 6/23
  - Next.js 에서 i18n 사용시 next-i18next 을 사용해야하고 SSR 에서 serverSideTranslations 을 사용해 context.locale 정보를 넘겨줘야함
+
+### 7/23
+- StyledComponent 에서 mixin 사용하기
+- e.g. 자주 사용하는 flex box 적용
+  ```
+  // theme.ts 에서 정의
+  export const mixins = {
+  // flex
+  flexBox: (direction = 'row', align = 'center', justify = 'center') => `
+    display: flex;
+    flex-direction: ${direction};
+    align-items: ${align};
+    justify-content: ${justify};
+  `,
+
+  // style 사용하는 쪽에서
+
+  ${({ theme })} => theme.flexBox('row', 'center', 'flex-start');
+  ```
