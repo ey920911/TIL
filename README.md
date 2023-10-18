@@ -164,7 +164,7 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
   ${({ theme })} => theme.flexBox('row', 'center', 'flex-start');
   ```
 
-  ### 9/14
+### 9/14
 특정 페이지id 값으로 scroll이동 처리
 ```
   useEffect(() => {
@@ -176,3 +176,6 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
     }
   }, [typeQuery])
 ```
+
+### 10/18
+- react의 use 라는 hook이 실험적 문법으로 나옴 https://react.dev/reference/react/use
