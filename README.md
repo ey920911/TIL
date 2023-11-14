@@ -185,5 +185,8 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 ```
     display: grid;
     grid-template-columns: repeat(4, 1fr); // 4칸짜리 만들기
+    /* repeat() 함수 사용법 */
+    grid-template-rows: repeat(2, 1fr);         /* 1fr 1fr */
+    grid-template-columns: repeat(3, 1fr 2fr);  /* 1fr 2fr 1fr 2fr 1fr 2fr */
 ```
 
