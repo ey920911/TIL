@@ -179,3 +179,11 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 
 ### 10/18
 - react의 use 라는 hook이 실험적 문법으로 나옴 https://react.dev/reference/react/use
+
+### 11/14
+- grid layout으로 card item 갯수 별로 배치하기
+```
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); // 4칸짜리 만들기
+```
+
