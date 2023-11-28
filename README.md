@@ -196,3 +196,7 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
     - offsetHeight : 요소의 높이. 패딩, 스크롤 바, 테두리(Border)가 포함. 마진은 제외된다.
     - scrollHeight : 요소에 들어있는 컨텐츠의 전체 높이
       (ellipse로 ... 후 내용 hidden 시 사용했었음)
+
+### 11/28
+- 안드로이드 웹뷰로는 html textarea의 maxLength가 적용이 안됨
+    - 관련 이슈: https://stackoverflow.com/questions/11754575/jelly-bean-webview-not-working-well-with-html-maxlength-attribute-for-text-box 
