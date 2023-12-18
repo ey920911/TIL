@@ -1,6 +1,9 @@
 # TIL
 Today I Learned 
 
+## 2024
+### 1/1
+
 ## 2023
 ### 1/18
 - SWR(stale while revalidate)
