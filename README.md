@@ -199,4 +199,12 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 
 ### 11/28
 - 안드로이드 웹뷰로는 html textarea의 maxLength가 적용이 안됨
-    - 관련 이슈: https://stackoverflow.com/questions/11754575/jelly-bean-webview-not-working-well-with-html-maxlength-attribute-for-text-box 
+    - 관련 이슈: https://stackoverflow.com/questions/11754575/jelly-bean-webview-not-working-well-with-html-maxlength-attribute-for-text-box
+ 
+### 12/18
+- URI (URL, URN을 포함, 모든 path이다.)
+    - e.g. http://torang.co.kr/user?id=107
+- URL 
+    - e.g. http://torang.co.kr/user/107
+- URN
+    - e.g. torang.co.kr/index
