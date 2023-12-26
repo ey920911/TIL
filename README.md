@@ -216,3 +216,20 @@ Access token은 인증된 사용자를 대신하여 API 또는 서비스에 대�
 - Monorepo 구축 도구인 Lerna 종료, 대신 Nrwl 을 사용하면 됨
     - https://github.com/lerna/lerna/issues/3121
     - https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html
+ 
+### 12/26
+- HTML tag 정리
+    - b: bold체 지정.
+    - strong: bold체 + 중요한 tag 사용시 사용함.
+    - i:  이텔릭체 지정.
+    - em: 이텔릭체 + emphasized (강조, 중요한)  텍스트를 지정한다.
+    - mark: highlighted text를 지정.
+    - del:  deleted text 지정
+    - ins: inserted text 지정 (underlined)
+    - sub: 아래에 쓰인 text
+    - sup: 위에 쓰인 text
+    - p: paragraphs 단락 지정.
+    - pre: 작성된 그대로 보여진다. preformatted(형식화된) text 이다.
+    - hr: 수평 줄 삽입
+    - q: 짧은 인용문 e.g. “내용”
+    - blockquote: 긴 인용문 블록을 지정한다.   
