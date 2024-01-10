@@ -2,7 +2,10 @@
 Today I Learned 
 
 ## 2024
-### 1/1
+### 1/10
+- absolute 속성 가운데 정렬하기
+    - transform: translate(-50%,0);
+    - left: 50%; 
 
 ## 2023
 ### 1/18
