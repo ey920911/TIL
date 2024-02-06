@@ -2,6 +2,12 @@
 Today I Learned 
 
 ## 2024
+
+### 2/6
+- 알림 서비스 구현시 통신 방식
+    - SSE: Server -> Client로 데이터 전달, HTTP 프로토콜 그대로 이용 가능함
+    - websocket: 양방향 통신 
+
 ### 1/10
 - absolute 속성 가운데 정렬하기
     - transform: translate(-50%,0);
