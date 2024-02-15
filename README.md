@@ -3,6 +3,9 @@ Today I Learned
 
 ## 2024
 
+### 2/15
+- 백그라운드가 항상 중앙 정렬하기(화면 사이즈 줄여도 가운데 위주로 보임) background-position: center;
+
 ### 2/6
 - 알림 서비스 구현시 통신 방식
     - SSE: Server -> Client로 데이터 전달, HTTP 프로토콜 그대로 이용 가능함
