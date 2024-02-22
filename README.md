@@ -8,7 +8,15 @@ Today I Learned
 - JS Closure
     - 함수안에 내부함수를 정의한 형태로 정보 캡슈화, 상태유지(e.g. useState), 전역 변수 사용 억제 등을 위해 사용한다.
     - 함수가 만들어진 환경을 기억한다.
-    - (클로저로 js 의 queue 를 구현할수도 있지 않을까?)
+    - (클로저로 js 의 queue 를 구현할수도 있지 않을까?
+- [CSS] text-wrap: balance;
+    - wrap 된 text의 갯수를 비슷하게 맞춰줌
+- [CSS] scrollbar-gutter: stable both-edges
+    - scroll bar를 위한 공간 남겨둠
+- [CSS] aspect-ratio: 16/9
+    -  16:9 비율로 화면에 보여줌
+- [CSS] object-fit: cover
+    - 이미지가 요소를 덮도록 크기가 조정. 
 
 ### 2/15
 - 백그라운드가 항상 중앙 정렬하기(화면 사이즈 줄여도 가운데 위주로 보임) background-position: center;
