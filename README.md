@@ -3,6 +3,12 @@ Today I Learned
 
 ## 2024
 
+
+### 2/22
+- JS Closure
+    - 함수안에 내부함수를 정의한 형태로 정보 캡슈화, 상태유지(e.g. useState), 전역 변수 사용 억제 등을 위해 사용한다.
+    - (클로저로 js 의 queue 를 구현할수도 있지 않을까?)
+
 ### 2/15
 - 백그라운드가 항상 중앙 정렬하기(화면 사이즈 줄여도 가운데 위주로 보임) background-position: center;
 
