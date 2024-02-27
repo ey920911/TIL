@@ -3,6 +3,8 @@ Today I Learned
 
 ## 2024
 
+### 2/27
+- transient props: $isVisible 과 같은 props 으로 styled component에 transient props 로 넘겨주면 DOM 에서 인식하지 않는다.
 
 ### 2/22
 - JS Closure
