@@ -3,12 +3,19 @@ Today I Learned
 
 ## 2024
 
+### 3/15
+- Debounce
+    -  여러개의 Event 가 발생하고 특정 시간이 지났을 때 마지막 Event를 발생시켜주는 것 (e.g. input box 입력)
+- Throttle
+    - 여러 Event가 발생했을 때 특정 주기마다 Event를 발생시켜 주는것 (e.g. 무한 스크롤) 
+
 ### 2/27
 - transient props: $isVisible 과 같은 props 으로 styled component에 transient props 로 넘겨주면 DOM 에서 인식하지 않는다.
 
 ### 2/22
 - JS Closure
-    - 함수안에 내부함수를 정의한 형태로 정보 캡슈화, 상태유지(e.g. useState), 전역 변수 사용 억제 등을 위해 사용한다.
+    - 함수안에 내부함수를 정의한 형태로
+    - 사용 Case: 정보 캡슈화, 상태유지(e.g. useState), 전역 변수 사용 억제 등을 위해 사용한다.
     - 함수가 만들어진 환경을 기억한다.
     - (클로저로 js 의 queue 를 구현할수도 있지 않을까?
 - [CSS] text-wrap: balance;
