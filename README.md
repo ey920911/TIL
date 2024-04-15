@@ -3,6 +3,11 @@ Today I Learned
 
 ## 2024
 
+
+### 4/15
+- 수정되지 않은 파일까지 stash 하기
+    - git stash --include-untracked
+
 ### 3/15
 - Debounce
     -  여러개의 Event 가 발생하고 특정 시간이 지났을 때 마지막 Event를 발생시켜주는 것 (e.g. input box 입력)
