@@ -3,6 +3,13 @@ Today I Learned
 
 ## 2024
 
+### 4/23
+- text color에 linear-gradient 값 주기
+``` 
+  background: linear-gradient(180deg, #ffffff -20.51%, #c49551 127.45%);
+  background-clip: text; /* 배경이 텍스트로 적용되도록 설정 */
+  color: transparent; /* 텍스트의 실제 색상을 투명하게 설정 */
+``` 
 
 ### 4/15
 - 수정되지 않은 파일까지 stash 하기
