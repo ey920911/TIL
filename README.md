@@ -6,7 +6,7 @@ Today I Learned
 ### 5/8
 - React19 hook (아직 실험적 문법)
     - use (promise): 프로미스 전달시 해당 프로미스가 해결 될 때까지 react는 중단됨
-    - use (context): React context를 읽을 수 있음
+    - use (context): useContext와 유사하지만 루프 및 조건문 내에서 호출 가능
     - useFromState: <form> 의 action 프로퍼티에 함수 전달 가능, 비동기 폼 액션 기능 지원, 폼이 마지막으로 제출됐을 때 액션의 반환 값에 접근 가능
     - useFormStatus: <form> 의 상태 정보, 제출중인지/성공적으로 제출했는지
     - useOptimistic: action이 제출되는 동안 사용자 인터페이스를 optimistically하게 업데이트 가능    
