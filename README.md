@@ -3,6 +3,10 @@ Today I Learned
 
 ## 2024
 
+### 8/8
+- frontend 오류 탐지 툴
+    - Sentry: https://tech.kakaopay.com/post/frontend-sentry-monitoring/ 
+
 ### 5/8
 - React19 hook (아직 실험적 문법)
     - use (promise): 프로미스 전달시 해당 프로미스가 해결 될 때까지 react는 중단됨
