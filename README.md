@@ -18,7 +18,7 @@ Today I Learned
     - x,w,size 서술자를 사용한다
         - x: ratio 단위
         - w: 너비로 px 단위
-    - 주의할 점: 뷰포트가 변경되어도 이미지 갱신이 일어나진 않는다. 
+    - [예제](https://www.heropy.dev/p/5Gl8hX)
 
 ### 8/8
 - frontend 오류 탐지 툴
