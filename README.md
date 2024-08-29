@@ -3,6 +3,23 @@ Today I Learned
 
 ## 2024
 
+### 8/29
+- img tag의 srcset 속성
+    - 반응형에서 다양한 크기의 이미지를 지원한다.
+    ``` 
+       <img 
+        srcset="images/500.png 500w, images/300.png 300w, images/150.png 150w"
+        sizes="(min-width:960px) 500px, (min-width:640px) 300px, 320px" 
+        src="images/150.png" 
+        alt="gray-box">
+     ```
+    - srcset: 이미지의 경로, 이미지의 원본 크기 지정
+    - size: 반응형 조건, 그에 따른 이미지 크기 지정
+    - x,w,size 서술자를 사용한다
+        - x: ratio 단위
+        - w: 너비로 px 단위
+    - 주의할 점: 뷰포트가 변경되어도 이미지 갱신이 일어나진 않는다. 
+
 ### 8/8
 - frontend 오류 탐지 툴
     - Sentry: https://tech.kakaopay.com/post/frontend-sentry-monitoring/ 
