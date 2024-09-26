@@ -3,6 +3,11 @@ Today I Learned
 
 ## 2024
 
+### 9/26
+- BroadcastChannel, PostMessage 차이점
+    -  PostMessage: 단방향 통신, cross origin 가능
+    -  BroadCastChannel: 양방향 통신, same origin 만 가능, 브로드케스트 함   
+
 ### 8/29
 - img tag의 srcset 속성
     - 반응형에서 다양한 크기의 이미지를 지원한다.
