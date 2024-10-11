@@ -3,6 +3,8 @@ Today I Learned
 
 ## 2024
 
+
+
 ### 10/11
 - next middleware
    - Next13 부터 도입됨
@@ -14,7 +16,12 @@ Today I Learned
        - SSL 에러가 발생했는데 Edge Runtime 에서는 SSL Option을 넣을 수 없었음.
        - https import 를 못함
        - node runtime에서는 secureOptions: crypto.constants.SSL_OP_LEGACY_SERVER_CONNECT 옵션 넣어서 해결 됨
-         
+- jsx 
+    - 'cannot be used as a jsx component.' 에러 해결하기
+    - 아래 추가 후 해결
+    - "resolutions": {
+        "@types/react": "18.0.28"
+     }          
 
 ### 9/26
 - BroadcastChannel, PostMessage 차이점
