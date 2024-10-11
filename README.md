@@ -3,6 +3,19 @@ Today I Learned
 
 ## 2024
 
+### 10/11
+- next middleware
+   - Next13 부터 도입됨
+   - Edge Runtime 이 사용된다.
+       - Edge Runtime 이란?
+           - Node.js API의 일부로 경량화 된 버전이다.
+           - 리소스 사용을 최소화해 속도는 높지만, 제한적이다. (이에 비해 Node.js는 시작 속도가 느리다.)
+   - 격었던 이슈
+       - SSL 에러가 발생했는데 Edge Runtime 에서는 SSL Option을 넣을 수 없었음.
+       - https import 를 못함
+       - node runtime에서는 secureOptions: crypto.constants.SSL_OP_LEGACY_SERVER_CONNECT 옵션 넣어서 해결 됨
+         
+
 ### 9/26
 - BroadcastChannel, PostMessage 차이점
     -  PostMessage: 단방향 통신, cross origin 가능
