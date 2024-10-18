@@ -8,7 +8,7 @@ Today I Learned
    -  Pseudo-class 에 대해 앞에 '&' 안붙이면 동작안함
        - e.g.  :last-child  ->  &:last-child 로 해야 동작함
  - e2e test tool
-   - playwright, chrome extension으로도 지원함
+   - playwright: chrome extension으로도 지원함
 
 ### 10/11
 - next middleware
