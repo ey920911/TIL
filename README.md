@@ -3,7 +3,10 @@ Today I Learned
 
 ## 2024
 
-
+### 10/18
+- styled-component v6 부터 달라진점
+   -  Pseudo-class 에 대해 앞에 '&' 안붙이면 동작안함
+       - e.g.  :last-child  ->  &:last-child 로 해야 동작함
 
 ### 10/11
 - next middleware
