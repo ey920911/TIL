@@ -3,6 +3,10 @@ Today I Learned
 
 ## 2024
 
+### 10/22
+- Tailwind란
+    -  많은 유틸리티(Utility) 클래스로 이루어진 CSS 프레임워크이다.
+
 ### 10/18
 - styled-component v6 부터 달라진점
    -  Pseudo-class 에 대해 앞에 '&' 안붙이면 동작안함
