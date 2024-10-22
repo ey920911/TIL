@@ -6,6 +6,15 @@ Today I Learned
 ### 10/22
 - Tailwind란
     -  많은 유틸리티(Utility) 클래스로 이루어진 CSS 프레임워크이다.
+- CSS inline style 문제점
+    ``` 
+      <button style="border-radius: 0.25rem; background-color: rgb(59 130 246); padding-top: 0.5rem; padding-bottom: 0.5rem; padding-left: 1rem; padding-right: 1rem; ">
+    ```
+    - 위와같이 inline style 로 해버리면 pseudo element 쓸수없음
+    - 미디어 쿼리 사용 불가 ->  반응형 웹 구현 불가 
+
+
+      
 
 ### 10/18
 - styled-component v6 부터 달라진점
