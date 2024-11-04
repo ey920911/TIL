@@ -14,6 +14,8 @@ Today I Learned
    - RealGrid
       - 문서화, 메뉴얼 정리 잘 되어있음
       - 주요 객체들 GridView, DataProvider, DataField, DataColumn, ItemModel(GridItem) 제공
+- 개발시 디자인 패턴
+   - https://brunch.co.kr/@oemilk/113  
        
  
 - 저작권
