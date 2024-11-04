@@ -14,7 +14,7 @@ Today I Learned
    - RealGrid
       - 문서화, 메뉴얼 정리 잘 되어있음
       - 주요 객체들 GridView, DataProvider, DataField, DataColumn, ItemModel(GridItem) 제공
-      -  
+       
  
 - 저작권
    - MIT: 누구나 사용가능, 저작권 표기 해야함, 저자는 SW에 대해 아무런 책임을 지지 않는다.
