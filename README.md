@@ -7,22 +7,16 @@ Today I Learned
 #### Package Manager
 - Npm
    - 설치하는 것 깊이가 깊어짐 -> (개선한 것) 같은 너비로 디펜던시 설치함
+   - 문제점) 비효율적인 설치, Phantom Dependency(유령 의존성)
 - Yarn berry
-    - Zip 파일로 설치
-    - pnp구조
-    - 이슈
+    - Zip 파일 (.yarn > cache 하위) 로 설치
+    - pnp(Plug'n'Play) 구조
+    - 장점)
+       - dependency를 압축파일로 관리- dependency 용량 낮음
+       - -> 의존성을 git 으로 관리 가능 (-> zero-install 이라고 부름) ->  CI에서 의존성 설치 시간 줄어 빌드 시간 감소
+    - 문제점)
         - zip파일 이름 길음 -> cmd  —cwd 옵션을 별도로 명시해줌
         - node module 고려해 만든 패키지는 호환안됨
-- Nx, TurboRepo
-    - 중점적으로 CI 관리 해줌
-    - TurboRepo
-        - 학습,설치, 설정 간단함. 
-        - Next, React만 지원한다. 
-        - Pnpm 을 권장한다.  
-        - 설계도 만들어줌.(수정시 수정본만 따로 만들어줌.)->원격 캐싱 가능
-    - NX
-        -  복잡하고 큰 monorepo 관리에 편하다
-        -  모든 프레임웍 지원. Yarn berry, yarn workspace 를 추구함.
 - PNpm
     - 필요 개념 정리
         - 하드링크
@@ -31,12 +25,24 @@ Today I Learned
         - 소프트링크 (심볼릭 링크)
            -  파일/폴더의 위치를 가리키는 포인터 역할.
            -  원본파일이 삭제되면 소프트링크는 유효하지 않는다.
-    - pnpm은 중앙저장소 역할을 하는 Global Cache Directory에 패키지를 저장한다.
-    - .pnpm 폴더와 하드링크
+    - pnpm은 중앙저장소 역할을 하는 Global Cache 디렉토리에 패키지를 저장한다.
+    - **.pnpm 폴더 <-> Global Cache : 하드링크**
         - .pnpm 은 패키지 저장소를 위한 로컬 캐시 처럼 동작함
-        - Global Cache  에 있는 lodash를 하드링크로 연결해 .pnpm 폴더로 가져옴
-    - node_module 폴더와 소프트 링크
+        - Global Cache 에 있는 lodash를 하드링크로 연결해 .pnpm 폴더로 가져옴
+    - **node_module 폴더 <-> .pnpm : 소프트 링크**
         - node_module/lodash 는 .pnpm 폴더 내의 loads 파일 위치를 소프트 링크로 연결함.
+#### MonoRepo
+- Nx, TurboRepo
+    - 중점적으로 CI 관리 해줌
+    - TurboRepo
+        - **학습, 설치, 설정 간단함.** 
+        - Next, React만 지원한다. 
+        - **Pnpm** 을 권장한다.  
+        - 설계도 만들어줌 (수정시 수정본만 따로 만들어줌) -> TurboRepo에서 원격 캐싱도 지원
+    - NX
+        - 복잡하고 큰 monorepo 관리에 편하다
+        - 모든 프레임웍 지원. **Yarn berry, yarn workspace** 를 추구함.
+
 
 ### 11/4
 - Chart 관련 라이브러리 Search, 비교
