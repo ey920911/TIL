@@ -1,5 +1,4 @@
-# TIL
-Today I Learned 
+# TIL (Today I Learned )
 
 ## 2024
 
