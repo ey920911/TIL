@@ -3,7 +3,7 @@
 ## 2024
 
 ### 11/8
-#### Package Manager
+#### Package Manager 비교 분석
 - Npm
    - 설치하는 것 깊이가 깊어짐 -> (개선한 것) 같은 너비로 디펜던시 설치함
    - 문제점) 비효율적인 설치, Phantom Dependency(유령 의존성)
@@ -95,7 +95,7 @@
    - 격었던 이슈
        - SSL 에러가 발생했는데 Edge Runtime 에서는 SSL Option을 넣을 수 없었음.
        - https import 를 못함
-       - node runtime에서는 secureOptions: crypto.constants.SSL_OP_LEGACY_SERVER_CONNECT 옵션 넣어서 해결 됨
+       - node runtime에서는 secureOptions: crypto.constants.SSL_OP_LEGACY_SERVER_CONNECT 옵션 넣어서 해결 됨
 - jsx 
     - 'cannot be used as a jsx component.' 에러 해결하기
     - 아래 추가 후 해결
